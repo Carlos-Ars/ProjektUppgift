@@ -3,6 +3,7 @@ package com.mycompany.mavenproject1;
 public abstract class Item {
 
     //Dessa hade också kunnat vara protected istället för private så de är öppna för subklasserna
+    //Det blir nog lättare med protected 
     private int itemID;
     private int libraryID;
     private String title;
